@@ -1,0 +1,28 @@
+# Streamlit version: 1.19.0
+
+[browser]
+gatherUsageStats = false
+
+[client]
+caching = true
+showErrorDetails = true
+
+[runner]
+installTracer = false
+fixMatplotlib = true
+postScriptGC = true
+fastReruns = false
+
+[server]
+folderWatchBlacklist = []
+headless = false
+runOnSave = false
+masUploadSize = 200
+maxMessageSize = 200
+
+[theme]
+base="light"
+primaryColor="#286285"
+secondaryBackgroundColor="#c2ced6"
+textColor="#000000"
+font = "sans serif"
