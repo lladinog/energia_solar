@@ -1,0 +1,33 @@
+/* Estilos para los boxes de datos */
+div[data-testid="stHorizontalBlock"] {
+    gap: 1rem;
+}
+
+div.data-box {
+    background-color: #f0f2f6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    border-left: 4px solid #ff4b4b;
+}
+
+div.energy-box {
+    background-color: #fff7e6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    border-left: 4px solid #ffc107;
+}
+
+/* Mejoras para los botones */
+.stButton button {
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
